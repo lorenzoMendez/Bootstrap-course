@@ -11,6 +11,8 @@ import { ColumnasAutomaticasComponent } from './components/columnas-automaticas/
 import { AllinearColumnaVerticalComponent } from './components/alinear-columna-vertical/alinear-columna-vertical.component';
 import { AlinearColumnaHorizontalComponent } from './components/alinear-columna-horizontal/alinear-columna-horizontal.component';
 import { OffsetingComponent } from './components/offseting/offseting.component';
+import { OrdenamientoColumnasComponent } from './components/ordenamiento-columnas/ordenamiento-columnas.component';
+import { ColumnaAnidadaComponent } from './components/columna-anidada/columna-anidada.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { OffsetingComponent } from './components/offseting/offseting.component';
     ColumnasAutomaticasComponent,
     AllinearColumnaVerticalComponent,
     AlinearColumnaHorizontalComponent,
-    OffsetingComponent
+    OffsetingComponent,
+    OrdenamientoColumnasComponent,
+    ColumnaAnidadaComponent
   ],
   imports: [
     BrowserModule,
