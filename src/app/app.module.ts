@@ -14,6 +14,7 @@ import { OffsetingComponent } from './components/offseting/offseting.component';
 import { OrdenamientoColumnasComponent } from './components/ordenamiento-columnas/ordenamiento-columnas.component';
 import { ColumnaAnidadaComponent } from './components/columna-anidada/columna-anidada.component';
 import { ResponsiveUtilitiesComponent } from './components/responsive-utilities/responsive-utilities.component';
+import { TypographyComponent } from './components/typography/typography.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ResponsiveUtilitiesComponent } from './components/responsive-utilities/
     OffsetingComponent,
     OrdenamientoColumnasComponent,
     ColumnaAnidadaComponent,
-    ResponsiveUtilitiesComponent
+    ResponsiveUtilitiesComponent,
+    TypographyComponent
   ],
   imports: [
     BrowserModule,
