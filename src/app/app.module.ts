@@ -13,6 +13,7 @@ import { AlinearColumnaHorizontalComponent } from './components/alinear-columna-
 import { OffsetingComponent } from './components/offseting/offseting.component';
 import { OrdenamientoColumnasComponent } from './components/ordenamiento-columnas/ordenamiento-columnas.component';
 import { ColumnaAnidadaComponent } from './components/columna-anidada/columna-anidada.component';
+import { ResponsiveUtilitiesComponent } from './components/responsive-utilities/responsive-utilities.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ColumnaAnidadaComponent } from './components/columna-anidada/columna-an
     AlinearColumnaHorizontalComponent,
     OffsetingComponent,
     OrdenamientoColumnasComponent,
-    ColumnaAnidadaComponent
+    ColumnaAnidadaComponent,
+    ResponsiveUtilitiesComponent
   ],
   imports: [
     BrowserModule,
