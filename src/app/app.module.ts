@@ -15,6 +15,8 @@ import { OrdenamientoColumnasComponent } from './components/ordenamiento-columna
 import { ColumnaAnidadaComponent } from './components/columna-anidada/columna-anidada.component';
 import { ResponsiveUtilitiesComponent } from './components/responsive-utilities/responsive-utilities.component';
 import { TypographyComponent } from './components/typography/typography.component';
+import { ImagesComponent } from './components/images/images.component';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { TypographyComponent } from './components/typography/typography.componen
     OrdenamientoColumnasComponent,
     ColumnaAnidadaComponent,
     ResponsiveUtilitiesComponent,
-    TypographyComponent
+    TypographyComponent,
+    ImagesComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
